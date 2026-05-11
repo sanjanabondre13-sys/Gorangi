@@ -52,7 +52,7 @@ console.log(Titles);
 
 const productName = 'qwerty' ;
 
-await page.locator('.card-body b').filter({ hasText: productName }).locator('{ hasText:  Add To Cart }').hover();
+await page.locator('.card-body b').filter({ hasText: productName }).locator('{ hasText:  Add To Cart }').click();
 
 
 // const count = await productCount.count();
